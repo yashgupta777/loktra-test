@@ -1,0 +1,41 @@
+.outer-container{
+		background-color: white	;
+	}
+.header{
+	padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.headercontent a{
+	color: #12879d;
+	text-decoration: none;
+}
+.headercontent h4{
+		font-weight: 600;
+
+}
+.headercontent h3{
+		font-weight: 600;
+		text-transform: uppercase;
+}
+
+.maindivright h4{
+	padding: 1%;
+}
+.maindivcenter a{
+	color: #12879d !important;
+	text-decoration: none;
+
+}
+
+.experiencedivfont{
+	font-size: 18px;
+	color: black;
+}
+.headercontent span{
+	float: right;
+}
+.divpadding{
+	padding-left: 3%;
+	padding-right: 3%;
+}
