@@ -206,7 +206,11 @@ function increase() {
   overlay.setAttribute("style", "width:" + j + "px");
   
   if (!limitReached) {
-    j = j + 20;
+    j = j + 35;
+  }
+  else{
+  	j = 0;
+  increase();
   }
 }
 	</script>
