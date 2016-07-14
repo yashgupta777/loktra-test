@@ -105,13 +105,8 @@
     background: #00BE1B;
     border-radius: 10px;
 }
-.radio {
-  display: none;
-}
-#five : checked ~ .progress > .progress-bar {
-  width: 50%;
-  
-}
+
+
 </style>
 <body>
 	<div class="outer-container container-fluid">
@@ -135,7 +130,7 @@
 							</h3>
 							<h2 class="donationvalue">$50</h2>
 							<!-- <a class="donationbuttonab" onclick="start(10)"><h2 class="donationbutton" >Give Now</h2></a> -->
-						<button class='btn donationbutton'   onClick='increase()'>Donate 50$</button>
+						<button class='btn donationbutton'   onClick="ncrease()"Give Now</button>
 							<p class="italic">Why give $50?</p>							
 						</div>		
 					</div>
@@ -199,9 +194,12 @@
   }
 });
 
-var j = 20;
-var containerWidth = 500;
 
+
+	</script>   
+	<script>
+		var j = 20;
+var containerWidth = 500;
 function increase() {
   var overlay = document.getElementById("overlay"),
       limitReached = (j==containerWidth);
@@ -211,7 +209,6 @@ function increase() {
     j = j + 20;
   }
 }
-
-	</script>   
+	</script>
 </body>
 </html>
